@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T22:43:01 IST" name="Default suite" finished-at="2025-09-09T22:43:05 IST" duration-ms="4330">
+  <suite started-at="2025-09-11T22:56:16 IST" name="Default suite" finished-at="2025-09-11T22:56:20 IST" duration-ms="4298">
     <groups>
     </groups>
-    <test started-at="2025-09-09T22:43:01 IST" name="Default test" finished-at="2025-09-09T22:43:05 IST" duration-ms="4330">
+    <test started-at="2025-09-11T22:56:16 IST" name="Default test" finished-at="2025-09-11T22:56:20 IST" duration-ms="4298">
       <class name="com.RestAPITest.TestGETAPIUsingNonBDD">
-        <test-method signature="testListOfUsers()[pri:0, instance:com.RestAPITest.TestGETAPIUsingNonBDD@6572421]" started-at="2025-09-09T22:43:01 IST" name="testListOfUsers" finished-at="2025-09-09T22:43:05 IST" duration-ms="4254" status="PASS">
+        <test-method signature="testListOfUsers()[pri:0, instance:com.RestAPITest.TestGETAPIUsingNonBDD@6572421]" started-at="2025-09-11T22:56:16 IST" name="testListOfUsers" finished-at="2025-09-11T22:56:20 IST" duration-ms="4222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListOfUsers -->

@@ -30,6 +30,10 @@ public class TestGETAPIUsingNonBDD {
 	  
 	  System.out.println("-----Response Payload in JSON format-------");
 	  System.out.println(res.asPrettyString());
+	  
+	  //json validation
+	  String hd=res.jsonPath().getString("data['Hard disk size']");
+	  System.out.println(hd);
 
 	  
 	  
