@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-16T22:33:27 IST" name="Default suite" finished-at="2025-09-16T22:33:42 IST" duration-ms="14796">
+    <groups>
+    </groups>
+    <test started-at="2025-09-16T22:33:27 IST" name="Default test" finished-at="2025-09-16T22:33:42 IST" duration-ms="14796">
+      <class name="com.MobileApp.CreateSession.DriverSessionUsingDesiredCapabilitiesClass">
+        <test-method signature="testAppiumDriverSession()[pri:0, instance:com.MobileApp.CreateSession.DriverSessionUsingDesiredCapabilitiesClass@45752059]" started-at="2025-09-16T22:33:27 IST" name="testAppiumDriverSession" finished-at="2025-09-16T22:33:42 IST" duration-ms="14694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAppiumDriverSession -->
+      </class> <!-- com.MobileApp.CreateSession.DriverSessionUsingDesiredCapabilitiesClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
