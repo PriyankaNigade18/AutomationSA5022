@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-18T22:11:29 IST" name="Default suite" finished-at="2025-09-18T22:11:58 IST" duration-ms="29508">
+  <suite started-at="2025-09-19T22:23:32 IST" name="Default suite" finished-at="2025-09-19T22:23:52 IST" duration-ms="19863">
     <groups>
     </groups>
-    <test started-at="2025-09-18T22:11:29 IST" name="Default test" finished-at="2025-09-18T22:11:58 IST" duration-ms="29508">
-      <class name="com.MobileApp.TestScenarios.T1_LocatorStrategiesInAndroid">
-        <test-method signature="testLocators()[pri:0, instance:com.MobileApp.TestScenarios.T1_LocatorStrategiesInAndroid@747ddf94]" started-at="2025-09-18T22:11:29 IST" name="testLocators" finished-at="2025-09-18T22:11:58 IST" duration-ms="29410" status="PASS">
+    <test started-at="2025-09-19T22:23:32 IST" name="Default test" finished-at="2025-09-19T22:23:52 IST" duration-ms="19863">
+      <class name="com.MobileApp.TestScenarios.T3_LongClickGesture">
+        <test-method signature="testLongclickGesture()[pri:0, instance:com.MobileApp.TestScenarios.T3_LongClickGesture@4f83df68]" started-at="2025-09-19T22:23:32 IST" name="testLongclickGesture" finished-at="2025-09-19T22:23:52 IST" duration-ms="19790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocators -->
-      </class> <!-- com.MobileApp.TestScenarios.T1_LocatorStrategiesInAndroid -->
+        </test-method> <!-- testLongclickGesture -->
+      </class> <!-- com.MobileApp.TestScenarios.T3_LongClickGesture -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
