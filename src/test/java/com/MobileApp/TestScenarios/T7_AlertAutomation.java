@@ -24,7 +24,7 @@ public class T7_AlertAutomation
 	 * to get the text of alert: getText()
 	 */
   @Test
-  public void testAlerts()
+  public void testAlerts() throws InterruptedException
   {
 	  
 	  //create driver session
@@ -34,6 +34,7 @@ public class T7_AlertAutomation
 	  //click on App
 	  driver.findElement(AppiumBy.accessibilityId("App")).click();
 	  
+	  Thread.sleep(1000);
 	  //alerts
 	  driver.findElement(AppiumBy.accessibilityId("Alert Dialogs")).click();
 	  

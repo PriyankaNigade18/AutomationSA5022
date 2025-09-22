@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-19T22:23:32 IST" name="Default suite" finished-at="2025-09-19T22:23:52 IST" duration-ms="19863">
+  <suite started-at="2025-09-22T22:27:14 IST" name="Default suite" finished-at="2025-09-22T22:27:41 IST" duration-ms="27070">
     <groups>
     </groups>
-    <test started-at="2025-09-19T22:23:32 IST" name="Default test" finished-at="2025-09-19T22:23:52 IST" duration-ms="19863">
-      <class name="com.MobileApp.TestScenarios.T3_LongClickGesture">
-        <test-method signature="testLongclickGesture()[pri:0, instance:com.MobileApp.TestScenarios.T3_LongClickGesture@4f83df68]" started-at="2025-09-19T22:23:32 IST" name="testLongclickGesture" finished-at="2025-09-19T22:23:52 IST" duration-ms="19790" status="PASS">
+    <test started-at="2025-09-22T22:27:14 IST" name="Default test" finished-at="2025-09-22T22:27:41 IST" duration-ms="27070">
+      <class name="com.MobileApp.TestScenarios.T15_WorkingWithAppCommands">
+        <test-method signature="testAppCommands()[pri:0, instance:com.MobileApp.TestScenarios.T15_WorkingWithAppCommands@747ddf94]" started-at="2025-09-22T22:27:14 IST" name="testAppCommands" finished-at="2025-09-22T22:27:41 IST" duration-ms="26994" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLongclickGesture -->
-      </class> <!-- com.MobileApp.TestScenarios.T3_LongClickGesture -->
+        </test-method> <!-- testAppCommands -->
+      </class> <!-- com.MobileApp.TestScenarios.T15_WorkingWithAppCommands -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

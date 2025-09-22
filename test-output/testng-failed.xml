@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MobileApp.TestScenarios.T4_ScrollGestureTest">
+      <class name="com.MobileApp.TestScenarios.T7_AlertAutomation">
         <methods>
-          <include name="testScroll"/>
+          <include name="testAlerts"/>
         </methods>
-      </class> <!-- com.MobileApp.TestScenarios.T4_ScrollGestureTest -->
+      </class> <!-- com.MobileApp.TestScenarios.T7_AlertAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
