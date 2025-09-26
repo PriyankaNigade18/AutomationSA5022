@@ -108,6 +108,74 @@ and I am ISTQB certified tester`;
 console.log("My Profile: "+profile);
 console.log("Type is: "+typeof profile);
 
+/*
+undefined: If variable is declare without initialization then 
+value and type of that variable is undefined
+*/
+
+
+let orgname;
+console.log("Value of name is: "+orgname);//undefined
+console.log("Type is: "+typeof orgname);//undefined
+
+/*
+
+Null: unknown value
+
+type of null type data is always Object
+This is bug in js
+*/
+
+let marks=null;
+console.log("Value of marks: "+marks);//null
+console.log("Type is: "+typeof marks);//Object
+
+//BigInt: big integer number (ES6)
+//every bigint numbers ends with n
+
+console.log(Number.MAX_VALUE);
+//1.7976931348623157e+308
+
+let bigNumber=7976931348623157n;
+console.log("Value is: "+bigNumber);
+console.log("Type is: "+typeof bigNumber);
+
+/*
+After ES6
+Symbol data type is applicable for object
+to hide any key value or to store unique data dev use symbol
+*/
+
+let empsal=Symbol("salary");
+
+let emp={
+            "empName":"Jay",
+            [empsal]:9987766
+            };
+
+            console.log(emp.empName);
+            console.log(emp.salary);//salary is hidden
+            console.log(emp[empsal]);//to bet orignal salary
+            
+            
+
+console.log("----Object literal-----");
+
+let person={
+            "userName":"Jay",
+            "id":101
+            };
+    console.log(person);
+    console.log("Type is: "+typeof person);
+    
+    
+
+
+
+
+
+
+
 
 
 
