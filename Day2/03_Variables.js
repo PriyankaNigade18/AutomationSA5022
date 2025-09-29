@@ -184,7 +184,7 @@ function test1()
 
 //test1();
 
-test2();//ReferenceError: Cannot access 'test2' before initialization
+//test2();//ReferenceError: Cannot access 'test2' before initialization
 
 //arrow
 let test2=()=>{

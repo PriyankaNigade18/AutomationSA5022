@@ -54,6 +54,124 @@ let y=++x;
 console.log(x);//81
 console.log(y);//81
 
+let e=89;
+let f=--e;
+console.log(e);//88
+console.log(f);//88
+
+let k=587;
+let s=k--;
+console.log(k);//586
+console.log(s);//587
+
+console.log("----Interview questions-----");
+console.log(90/0);//infinity
+console.log(-90/0);//-Infinity
+console.log("Hello"/0);//NaN(not a number)
+console.log(undefined/67);//NaN
+console.log(0/0);//NaN
+
+/*
+isNaN() : is that value is not a number : boolean
+*/
+
+let username="Jay";
+console.log(isNaN(username));//true
+
+let num=90;
+console.log(isNaN(num));//false
+console.log("-----Relational operators------");
+/*
+< <= > >= != ==(loose equality) ===(strict equality)
+
+a1=79 b1=78  x=y=81 e=f=88 k=586
+*/
+
+console.log("< less than: "+(a1<y));//true
+console.log("<= less than equal to: "+(e<=f));//true
+console.log("> greater than: "+(k>x));//true
+console.log(a1>k);//false
+console.log(">= greter than equal to: "+(e>=y));//true
+console.log(y>=e);//false
+console.log("!= not equal to:  "+(e!=f));//false
+console.log(a1!=x);//true
+
+/*
+== loose equality: here it will convert the type and test value
+=== strict equality: here it will not conver type and test value
+*/
+console.log("5"==5);//true
+console.log(undefined==null);//true
+
+
+
+console.log("5"===5);//false
+console.log(undefined===null);//false
+
+console.log("--------Logical operators----------");
+/*
+
+c1      c2      &&(AND)     ||(OR)        !(NOT !c1)
+true    true    true        true            false
+true    false   false       true            false
+false   true    false       true            true
+false   false   false       false           true
+
+Test data:
+
+*/
+
+console.log("------&&-------");
+console.log((a1<y) && (e<=f));//true
+console.log((a1<y) && (e>f));//false
+console.log((e>f) && (a1<y));//false
+console.log((a1>y) && (e>f));//false
+
+
+console.log("------||-------");
+console.log((a1<y) || (e<=f));//true
+console.log((a1<y) || (e>f));//true
+console.log((e>f) || (a1<y));//true
+console.log((a1>y) || (e>f));//false
+
+
+console.log("------!(not)-------");
+
+console.log(a1<y);//true
+console.log(!(a1<y));//false
+
+console.log(y>k);//false
+console.log(!(y>k));//true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
