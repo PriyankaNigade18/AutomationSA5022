@@ -15,7 +15,7 @@ Types
 -----------
 1.Single level
 2.Multi level
-3.Heirarchical
+3.Hierarchical
 4.Multiple
 5.Hybrid(Dimond problem in Java)
 
