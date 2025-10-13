@@ -110,50 +110,45 @@ tagname[attribut='value']:nth-child(indexing)
 
 */
 
-describe("This is suite of examples for Locators in Cypress",()=>{
+describe("This is suite for Locator Demo2",()=>{
 
 
-it("Test CRM login functionality using locators",()=>{
+it("Test for Orangehrm login and logout",()=>{
 
-//open application
-cy.visit("https://automationplayground.com/crm/");
+    //open application
+    cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
-//click on Sign in link using contains(): based on visible text of element it identify element
-cy.contains("Sign In").click();
+    //username:CssSelector with attribute
+    cy.get("input[name='username']").type("Admin");
 
-//click on Sign in link using cssSelector using id
-//cy.get("a#SignIn").click();
+    //password:CssSelector with attribute
+    cy.get("input[type='password']").type("admin123");
+    
+    //login button:CssSelector with classname
+    cy.get("button.oxd-button").click();
 
-//enter email id into login page : cssSelector with id
-cy.get("input#email-id").type("test123@gmail.com");
+    //assertion on url
+    cy.url().should("include","dashboard");
+    cy.log("Login pass..User Navigated to Dashboard page");
 
-//enter password using cssSlector with attribute
-cy.get("input[placeholder='Password']").type("test123");
+    //logout
+    cy.get("i.oxd-userdropdown-icon").click();
 
-//checkbox/radiobutton--->click() check() and uncheck() using cssSelector with id
-cy.get("input#remember").click();
+    //click on logout
+    //cy.contains("Logout").click();
 
-//this is like Thread.sleep() in selenium : to provide pause in between step
- cy.wait(1500);
+    //parent child
+    cy.get("ul.oxd-dropdown-menu>li:nth-child(4)>a").click();
 
- //uncheck the checkbox
-cy.get("input#remember").uncheck();
+    //assertion
+    cy.url().should("include","login");
+    
 
-cy.wait(1500);
 
-//check the checkbox
-cy.get("input#remember").check();
+})
 
-//submit button using cssSelector with tagname
-//cy.get("button").click();
 
-//submit button using CssSelector with className
-//cy.get("button.btn").click();
-cy.get("button.btn.btn-default.btn-primary").click();
 
-//validation
-cy.url().should("include","customers");
-cy.log("Login pass...User Navigated to customers page!");
 
 })
 
@@ -161,7 +156,3 @@ cy.log("Login pass...User Navigated to customers page!");
 
 
 
-
-
-
-})
