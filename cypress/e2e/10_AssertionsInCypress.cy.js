@@ -50,7 +50,7 @@ cy.get("h5").should("have.text","Login");
 })
 
 
-it.only("Test for Explicit Assertion in Cypress",()=>{
+it("Test for Explicit Assertion in Cypress",()=>{
 
     //open application
     cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
@@ -94,6 +94,23 @@ test for current status of checkboxes
 */
 
 
+it.only("Test for checkbox status",()=>{
+
+    //open application
+    cy.visit("https://the-internet.herokuapp.com/checkboxes");
+
+    //checkbox 1 should be unchecked
+    /**
+     * first() last() eq(index)
+     */
+
+    cy.get("input[type='checkbox']").first().should("not.be.checked");
+
+
+    //checkbox 2 should be checked
+    cy.get("input[type='checkbox']").last().should("be.checked");   
+
+})
 
 
 
