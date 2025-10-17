@@ -118,8 +118,12 @@ it("Test CRM login functionality using locators",()=>{
 //open application
 cy.visit("https://automationplayground.com/crm/");
 
+cy.screenshot("Homepage");
+
 //click on Sign in link using contains(): based on visible text of element it identify element
 cy.contains("Sign In").click();
+
+cy.screenshot("loginPage");
 
 //click on Sign in link using cssSelector using id
 //cy.get("a#SignIn").click();
@@ -130,6 +134,7 @@ cy.get("input#email-id").type("test123@gmail.com");
 //enter password using cssSlector with attribute
 cy.get("input[placeholder='Password']").type("test123");
 
+cy.screenshot("credentails");
 //checkbox/radiobutton--->click() check() and uncheck() using cssSelector with id
 cy.get("input#remember").click();
 
