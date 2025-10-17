@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.testlisteners.ExtentITestNGListeners"></listener>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.RestAPITest.TestSerializationDeserialization"/>
+      <class name="com.RestAPITest.FirstBDDTest"/>
+      <class name="com.RestAPITest.TestPathQueryParameters"/>
+      <class name="com.RestAPITest.TestGETAPIUsingNonBDD"/>
+      <class name="com.RestAPITest.LoginTest"/>
+      <class name="com.RestAPITest.TestCookies_Header"/>
+      <class name="com.RestAPITest.TestAPIChaining"/>
+      <class name="com.RestAPITest.JsonPayloadWays"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 17 21:28:11 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21128 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.RestAPITest.TestGETAPIUsingNonBDD.testSingleObject()'><b>testSingleObject</b><br>Test class: com.RestAPITest.TestGETAPIUsingNonBDD</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestGETAPIUsingNonBDD@79207381</td></tr>
+<tr>
+<td title='com.RestAPITest.JsonPayloadWays.postCallUsingJSONObject()'><b>postCallUsingJSONObject</b><br>Test class: com.RestAPITest.JsonPayloadWays</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.JsonPayloadWays@5a5a729f</td></tr>
+<tr>
+<td title='com.RestAPITest.LoginTest.testLogin()'><b>testLogin</b><br>Test class: com.RestAPITest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.LoginTest@491b9b8</td></tr>
+<tr>
+<td title='com.RestAPITest.TestSerializationDeserialization.testSearialization()'><b>testSearialization</b><br>Test class: com.RestAPITest.TestSerializationDeserialization</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestSerializationDeserialization@55de24cc</td></tr>
+<tr>
+<td title='com.RestAPITest.TestAPIChaining.createToken()'><b>createToken</b><br>Test class: com.RestAPITest.TestAPIChaining</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.TestAPIChaining@97e93f1</td></tr>
+<tr>
+<td title='com.RestAPITest.TestAPIChaining.updateFullBooking()'><b>updateFullBooking</b><br>Test class: com.RestAPITest.TestAPIChaining</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.TestAPIChaining@97e93f1</td></tr>
+<tr>
+<td title='com.RestAPITest.TestPathQueryParameters.testParameters()'><b>testParameters</b><br>Test class: com.RestAPITest.TestPathQueryParameters</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestPathQueryParameters@60f00693</td></tr>
+<tr>
+<td title='com.RestAPITest.TestAPIChaining.createNewBooking()'><b>createNewBooking</b><br>Test class: com.RestAPITest.TestAPIChaining</td>
+<td></td>
+<td>4</td>
+<td>com.RestAPITest.TestAPIChaining@97e93f1</td></tr>
+<tr>
+<td title='com.RestAPITest.FirstBDDTest.singleUserRequest()'><b>singleUserRequest</b><br>Test class: com.RestAPITest.FirstBDDTest</td>
+<td></td>
+<td>4</td>
+<td>com.RestAPITest.FirstBDDTest@50378a4</td></tr>
+<tr>
+<td title='com.RestAPITest.LoginTest.testRegister()'><b>testRegister</b><br>Test class: com.RestAPITest.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.LoginTest@491b9b8</td></tr>
+<tr>
+<td title='com.RestAPITest.JsonPayloadWays.postCallUsingHashMap()'><b>postCallUsingHashMap</b><br>Test class: com.RestAPITest.JsonPayloadWays</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.JsonPayloadWays@5a5a729f</td></tr>
+<tr>
+<td title='com.RestAPITest.TestCookies_Header.testHeader()'><b>testHeader</b><br>Test class: com.RestAPITest.TestCookies_Header</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestCookies_Header@1a4927d6</td></tr>
+<tr>
+<td title='com.RestAPITest.JsonPayloadWays.postCallUsingJsonFile()'><b>postCallUsingJsonFile</b><br>Test class: com.RestAPITest.JsonPayloadWays</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.JsonPayloadWays@5a5a729f</td></tr>
+<tr>
+<td title='com.RestAPITest.JsonPayloadWays.postCallUsingPOJOClass()'><b>postCallUsingPOJOClass</b><br>Test class: com.RestAPITest.JsonPayloadWays</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.JsonPayloadWays@5a5a729f</td></tr>
+<tr>
+<td title='com.RestAPITest.TestAPIChaining.getBookingDetails()'><b>getBookingDetails</b><br>Test class: com.RestAPITest.TestAPIChaining</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.TestAPIChaining@97e93f1</td></tr>
+<tr>
+<td title='com.RestAPITest.TestGETAPIUsingNonBDD.testSingleUser()'><b>testSingleUser</b><br>Test class: com.RestAPITest.TestGETAPIUsingNonBDD</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestGETAPIUsingNonBDD@79207381</td></tr>
+<tr>
+<td title='com.RestAPITest.TestSerializationDeserialization.testDeserialization()'><b>testDeserialization</b><br>Test class: com.RestAPITest.TestSerializationDeserialization</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestSerializationDeserialization@55de24cc</td></tr>
+<tr>
+<td title='com.RestAPITest.TestGETAPIUsingNonBDD.testListOfUsers()'><b>testListOfUsers</b><br>Test class: com.RestAPITest.TestGETAPIUsingNonBDD</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestGETAPIUsingNonBDD@79207381</td></tr>
+<tr>
+<td title='com.RestAPITest.FirstBDDTest.testFirstBDDRequest()'><b>testFirstBDDRequest</b><br>Test class: com.RestAPITest.FirstBDDTest</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.FirstBDDTest@50378a4</td></tr>
+<tr>
+<td title='com.RestAPITest.TestCookies_Header.testCookies()'><b>testCookies</b><br>Test class: com.RestAPITest.TestCookies_Header</td>
+<td></td>
+<td>0</td>
+<td>com.RestAPITest.TestCookies_Header@1a4927d6</td></tr>
+<tr>
+<td title='com.RestAPITest.TestAPIChaining.deleteBooking()'><b>deleteBooking</b><br>Test class: com.RestAPITest.TestAPIChaining</td>
+<td></td>
+<td>1</td>
+<td>com.RestAPITest.TestAPIChaining@97e93f1</td></tr>
+</table><p>
+</body>
+</html>
