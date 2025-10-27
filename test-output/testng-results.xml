@@ -1,111 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-17T21:28:11 IST" name="Suite" finished-at="2025-10-17T21:28:33 IST" duration-ms="21128">
+  <suite started-at="2025-10-27T21:30:00 IST" name="Default suite" finished-at="2025-10-27T21:30:06 IST" duration-ms="6288">
     <groups>
     </groups>
-    <test started-at="2025-10-17T21:28:11 IST" name="Test" finished-at="2025-10-17T21:28:33 IST" duration-ms="21128">
-      <class name="com.RestAPITest.TestSerializationDeserialization">
-        <test-method signature="testDeserialization()[pri:0, instance:com.RestAPITest.TestSerializationDeserialization@55de24cc]" started-at="2025-10-17T21:28:12 IST" name="testDeserialization" finished-at="2025-10-17T21:28:12 IST" duration-ms="542" status="PASS">
+    <test started-at="2025-10-27T21:30:00 IST" name="Default test" finished-at="2025-10-27T21:30:06 IST" duration-ms="6288">
+      <class name="com.RestAPITest.TelecomeProject">
+        <test-method signature="testAddNewUser()[pri:1, instance:com.RestAPITest.TelecomeProject@6d763516]" started-at="2025-10-27T21:30:00 IST" name="testAddNewUser" finished-at="2025-10-27T21:30:06 IST" duration-ms="6216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeserialization -->
-        <test-method signature="testSearialization()[pri:0, instance:com.RestAPITest.TestSerializationDeserialization@55de24cc]" started-at="2025-10-17T21:28:12 IST" name="testSearialization" finished-at="2025-10-17T21:28:12 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearialization -->
-      </class> <!-- com.RestAPITest.TestSerializationDeserialization -->
-      <class name="com.RestAPITest.TestCookies_Header">
-        <test-method signature="testCookies()[pri:0, instance:com.RestAPITest.TestCookies_Header@1a4927d6]" started-at="2025-10-17T21:28:19 IST" name="testCookies" finished-at="2025-10-17T21:28:19 IST" duration-ms="196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCookies -->
-        <test-method signature="testHeader()[pri:0, instance:com.RestAPITest.TestCookies_Header@1a4927d6]" started-at="2025-10-17T21:28:19 IST" name="testHeader" finished-at="2025-10-17T21:28:19 IST" duration-ms="140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHeader -->
-      </class> <!-- com.RestAPITest.TestCookies_Header -->
-      <class name="com.RestAPITest.FirstBDDTest">
-        <test-method signature="singleUserRequest()[pri:0, instance:com.RestAPITest.FirstBDDTest@50378a4]" started-at="2025-10-17T21:28:12 IST" name="singleUserRequest" finished-at="2025-10-17T21:28:17 IST" duration-ms="4926" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- singleUserRequest -->
-        <test-method signature="testFirstBDDRequest()[pri:0, instance:com.RestAPITest.FirstBDDTest@50378a4]" started-at="2025-10-17T21:28:17 IST" name="testFirstBDDRequest" finished-at="2025-10-17T21:28:17 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFirstBDDRequest -->
-      </class> <!-- com.RestAPITest.FirstBDDTest -->
-      <class name="com.RestAPITest.TestPathQueryParameters">
-        <test-method signature="testParameters()[pri:0, instance:com.RestAPITest.TestPathQueryParameters@60f00693]" started-at="2025-10-17T21:28:17 IST" name="testParameters" finished-at="2025-10-17T21:28:18 IST" duration-ms="334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testParameters -->
-      </class> <!-- com.RestAPITest.TestPathQueryParameters -->
-      <class name="com.RestAPITest.LoginTest">
-        <test-method signature="testLogin()[pri:0, instance:com.RestAPITest.LoginTest@491b9b8]" started-at="2025-10-17T21:28:18 IST" name="testLogin" finished-at="2025-10-17T21:28:19 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testRegister()[pri:0, instance:com.RestAPITest.LoginTest@491b9b8]" started-at="2025-10-17T21:28:19 IST" name="testRegister" finished-at="2025-10-17T21:28:19 IST" duration-ms="298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegister -->
-      </class> <!-- com.RestAPITest.LoginTest -->
-      <class name="com.RestAPITest.TestGETAPIUsingNonBDD">
-        <test-method signature="testListOfUsers()[pri:0, instance:com.RestAPITest.TestGETAPIUsingNonBDD@79207381]" started-at="2025-10-17T21:28:18 IST" name="testListOfUsers" finished-at="2025-10-17T21:28:18 IST" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testListOfUsers -->
-        <test-method signature="testSingleObject()[pri:0, instance:com.RestAPITest.TestGETAPIUsingNonBDD@79207381]" started-at="2025-10-17T21:28:18 IST" name="testSingleObject" finished-at="2025-10-17T21:28:18 IST" duration-ms="238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSingleObject -->
-        <test-method signature="testSingleUser()[pri:0, instance:com.RestAPITest.TestGETAPIUsingNonBDD@79207381]" started-at="2025-10-17T21:28:18 IST" name="testSingleUser" finished-at="2025-10-17T21:28:18 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSingleUser -->
-      </class> <!-- com.RestAPITest.TestGETAPIUsingNonBDD -->
-      <class name="com.RestAPITest.TestAPIChaining">
-        <test-method signature="createNewBooking()[pri:1, instance:com.RestAPITest.TestAPIChaining@97e93f1]" started-at="2025-10-17T21:28:19 IST" name="createNewBooking" finished-at="2025-10-17T21:28:24 IST" duration-ms="4240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewBooking -->
-        <test-method signature="getBookingDetails()[pri:2, instance:com.RestAPITest.TestAPIChaining@97e93f1]" started-at="2025-10-17T21:28:24 IST" name="getBookingDetails" finished-at="2025-10-17T21:28:25 IST" depends-on-methods="com.RestAPITest.TestAPIChaining.createNewBooking" duration-ms="1108" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBookingDetails -->
-        <test-method signature="createToken()[pri:3, instance:com.RestAPITest.TestAPIChaining@97e93f1]" started-at="2025-10-17T21:28:25 IST" name="createToken" finished-at="2025-10-17T21:28:26 IST" duration-ms="1130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createToken -->
-        <test-method signature="updateFullBooking()[pri:4, instance:com.RestAPITest.TestAPIChaining@97e93f1]" started-at="2025-10-17T21:28:26 IST" name="updateFullBooking" finished-at="2025-10-17T21:28:27 IST" duration-ms="1124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateFullBooking -->
-        <test-method signature="deleteBooking()[pri:5, instance:com.RestAPITest.TestAPIChaining@97e93f1]" started-at="2025-10-17T21:28:27 IST" name="deleteBooking" finished-at="2025-10-17T21:28:28 IST" duration-ms="1122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBooking -->
-      </class> <!-- com.RestAPITest.TestAPIChaining -->
-      <class name="com.RestAPITest.JsonPayloadWays">
-        <test-method signature="postCallUsingHashMap()[pri:0, instance:com.RestAPITest.JsonPayloadWays@5a5a729f]" started-at="2025-10-17T21:28:28 IST" name="postCallUsingHashMap" finished-at="2025-10-17T21:28:29 IST" duration-ms="1143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCallUsingHashMap -->
-        <test-method signature="postCallUsingJSONObject()[pri:0, instance:com.RestAPITest.JsonPayloadWays@5a5a729f]" started-at="2025-10-17T21:28:29 IST" name="postCallUsingJSONObject" finished-at="2025-10-17T21:28:30 IST" duration-ms="1141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCallUsingJSONObject -->
-        <test-method signature="postCallUsingJsonFile()[pri:0, instance:com.RestAPITest.JsonPayloadWays@5a5a729f]" started-at="2025-10-17T21:28:30 IST" name="postCallUsingJsonFile" finished-at="2025-10-17T21:28:31 IST" duration-ms="1160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCallUsingJsonFile -->
-        <test-method signature="postCallUsingPOJOClass()[pri:0, instance:com.RestAPITest.JsonPayloadWays@5a5a729f]" started-at="2025-10-17T21:28:31 IST" name="postCallUsingPOJOClass" finished-at="2025-10-17T21:28:33 IST" duration-ms="1143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCallUsingPOJOClass -->
-      </class> <!-- com.RestAPITest.JsonPayloadWays -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testAddNewUser -->
+      </class> <!-- com.RestAPITest.TelecomeProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
