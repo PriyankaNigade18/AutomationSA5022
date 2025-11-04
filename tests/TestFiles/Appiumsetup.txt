@@ -1,0 +1,203 @@
+https://www.simplilearn.com/enable-virtualization-windows-10-article
+
+
+Step1: Install nodejs
+https://nodejs.org/en/download
+
+
+
+
+Commands
+--------------
+1.To check node is installed?
+	node -v
+
+2. To check npm version
+	npm -v
+
+Step2: Install Appium server
+	npm install -g appium
+	
+To check location
+	where Appium
+
+To uninstall Appium
+npm uninstall -g Appium
+
+To start appium server
+	appium
+To stop/quit server
+	ctrl+c
+
+
+To check driver list
+	appium driver list
+
+To install Appium driver
+	appium driver install uiautomator2
+
+
+Step3: Install Appium Inspector
+https://github.com/appium/appium-inspector
+
+Step4: Install Android Studio older version
+https://developer.android.com/studio
+Link For Archive:  https://developer.android.com/studio/archive
+
+Step5: Java & Android variable setup
+Andriod Home C:\Users\Ganes\AppData\Local\Android\Sdk
+
+%ANDROID_HOME%\platform-tools
+%ANDROID_HOME%\tools
+%ANDROID_HOME%\tools\bin
+
+===========================================================================
+
+For mac permissions
+First run this command in the terminal — sudo xattr -rd com.apple.quarantine /Applications/Appium\ Inspector.app
+
+Later go to  System Settings -> Privacy and Security
+
+Later - scroll down and go to — “Appium Inspector was blocked because it is not from an identified developer”
+→ Click “Open Anyway”
+
+Wait for some time and it will open the Appium inspector]
+
+On Mac For UDID number
+~/Library/Android/sdk/platform-tools/adb version
+
+
+
+Set JAVA_HOME environment variable
+==================================
+On macOS 10.15 Catalina and later, default shell is zsh: 
+--------------------------------------------------------
+-> Navigate to home directory: cd ~/
+-> Open zshrc file: open -e .zshrc
+-> Create zshrc file: touch .zshrc
+-> Add below entries:
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH="${JAVA_HOME}/bin:${PATH}"
+-> source .zshrc
+-> echo $JAVA_HOME
+-> echo $PATH
+
+Follow this article: https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+Set ANDROID_HOME environment variables
+======================================
+On macOS 10.15 Catalina and later, default shell is zsh: 
+--------------------------------------------------------
+-> Navigate to home directory: cd ~/
+-> Open zshrc file: open -e .zshrc
+-> Add below entries:
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH="${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/cmdline-tools:${PATH}"
+-> source .zshrc
+-> echo $ANDROID_HOME
+-> echo $PATH
+
+
+
+Apk(Android application package)
+==================================
+
+Apk file is installer for android 
+
+
+AVD(Android virtual Device)
+SDK(Software Development kit)
+===================================
+
+ADB
+===================
+ADB (Android Debug Bridge) is a versatile command-line tool that comes with the Android SDK. 
+It allows you to communicate with and control Android devices or emulators connected to your computer. 
+
+To check connected devices
+===========================
+adb devices
+
+UDID
+===========
+unique device identifier
+
+In Mac : for devices-IOS Simulators
+
+=====================
+xcrun simctl list
+
+appium Link
+==============
+https://appium.io/docs/en/2.4/
+
+driver capabilities
+======================
+https://github.com/appium/appium-uiautomator2-driver?#capabilities
+
+Gestures Link
+=============
+https://github.com/appium/appium-uiautomator2-driver/blob/2d02006eaf1e5a62acfbc36a5bc5a9ea271cf7cd/docs/android-mobile-gestures.md
+
+
+
+Installation Issue
+====================
+https://developer.android.com/studio/run/emulator-acceleration
+
+
+Some Solutions
+=========================
+
+For AMD Processor
+=================
+1. We have to restart
+2. While PC is restarting, we have to press F2 continuously.. BIOS mode will appear
+3. We have to go to Advanced mode
+4. Then click on Advanced 
+5. Enable SVM mode and set UMA frame buffer size to Auto
+6. Exit Ez mode
+7. Finally Save and Exit 
+8. System will restart and you will be able to run the Android studio without error
+
+For Intel Processor
+======================
+https://github.com/intel/haxm/releases
+
+download latest version HAXM and install it 
+
+
+ https://github.com/intel/haxm/wiki/Installation-Instructions-on-Windows
+
+
+
+Real Device Setup: Enable USB debugging on Android mobile
+========================================================
+Note: Steps can differ based on the phone manufacturer!
+-> Settings -> System -> About Phone -> Click Build Number 7-8 times
+-> Settings -> Developer Options -> Enable USB Debugging
+-> Permission pop-up: Check the box and press Allow to recognise the computer
+-> run "adb devices" in CMD prompt to check if device is recognised
+-> USB drivers:
+Google: https://developer.android.com/studio/run/win-usb
+OEMs: https://developer.android.com/studio/run/oem-usb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

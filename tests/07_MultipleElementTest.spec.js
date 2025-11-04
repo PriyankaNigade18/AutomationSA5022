@@ -26,6 +26,7 @@ for(let ele of allOptions)
 
 })
 
+
 test("Multiple elements for Google Search scenario using all()",async({page})=>{
 
 //open application
